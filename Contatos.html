@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dermatológica Pele Viva - Contato</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .container { width: 80%; margin: 20px auto; background-color: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .menu { background-color: #5879f1; padding: 1px; text-align: center; }
+        .menu a { color: white; padding: 10px 20px; text-decoration: none; display: inline-block; }
+        .menu a:hover { background-color: #00d8a4; }
+        .header { background-color: #5798f1; color: white; padding: 0 0; text-align: center; }
+        .header img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+        .content { padding: 20px; line-height: 1.6; }
+        .footer { background-color: #00d8a4; color: white; text-align: center; padding: 20px; margin-top: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        form { margin-top: 20px; }
+        form label { display: block; margin-bottom: 5px; font-weight: bold; }
+        form input[type="text"], form input[type="email"], form textarea { width: calc(100% - 22px); padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; }
+        form textarea { resize: vertical; min-height: 100px; }
+        form button { background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin-right: 10px; }
+        form button[type="reset"] { background-color: #f44336; }
+        form button:hover { opacity: 0.9; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="/index.html">Página Principal</a>
+            <a href="/NossaClinica.html">Sobre a Clínica</a>
+            <a href="/NossoHorario.html">Horário de Atendimento</a>
+            <a href="/Contatos.html">Contato</a>
+        </div>
+
+        <div class="header">
+            <img src="/imgs/contato.png" alt="Banner com icone do WhatsApp">
+        </div>
+
+        <div class="content">
+            <h1 style="font-size: 18px;">Entre em Contato</h1>
+            <p>Estamos à sua disposição para tirar dúvidas, agendar consultas e oferecer o melhor atendimento. Utilize os canais abaixo para falar conosco:</p>
+
+            <h2 style="font-size: 14px;">Informações de Contato</h2>
+            <ul>
+                <li><strong>Telefone Fixo:</strong> (92) 3232-1234</li>
+                <li><strong>Celular/WhatsApp:</strong> (92) 9999-9999</li>
+                <li><strong>E-mail:</strong> contato@dermoclean.com.br</li>
+            </ul>
+
+            <h2>Nosso Endereço</h2>
+            <p>Av Eduardo Ribeiro, 123</p>
+            <p>Bairro da Saúde</p>
+            <p>CEP: 69000-000</p>
+            <p>Manaus - AM</p>
+
+            <h2 style="font-size: 14px;">Localização no Mapa</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.095066928096!2d-60.02102872591605!3d-3.11902899684344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9265ac5506a591e5%3A0xb3e164f9f7a7d4a6!2sAv.%20Djalma%20Batista%2C%201200%20-Nossa%20Sra.%20das%20Gracas%2C%20Manaus%20-%20AM%2C%2069053-090!5e0!3m2!1spt-BR!2sbr!4v1717861962366!5m2!1spt-BR!2sbr"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <h2 style="font-size: 14px;">Envie uma Mensagem</h2>
+            <form action="#" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar Formulário</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p><b>2025 Clínica Dermatológica Pele Viva. Todos os direitos reservados.</b></p>
+            <p><b>Telefone: (92) 9999-9999 | Email: contato@dermoclean.com.br</b></p>
+            <p><b>Endereço: Rua da Pele, 123 - Centro, Manaus - AM</b></p>
+        </div>
+    </div>
+</body>
+</html>
